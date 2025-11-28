@@ -6,5 +6,5 @@ function parodytiIvestaReiksme() {
 	let sarasas = document.querySelector("#megstamos-prekes");
 	megstamosPrekes.push(reiksme);
 	sarasas.innerHTML = sarasas.innerHTML + "<li>" + reiksme + "</li>";
-	console.log(megstamosPrekes[1]);
+	// console.log(megstamosPrekes[1]);
 }
